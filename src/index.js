@@ -1,5 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import DemoRouter from "./components/DemoRouter";
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.createRoot(document.getElementById('root'))
-    .render(<p>"Welcome here"</p>);
+    .render(<DemoRouter />);
