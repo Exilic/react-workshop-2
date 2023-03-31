@@ -6,6 +6,7 @@ import Person from "./Person";
 import Welcome from "./Welcome";
 import NotFound from "./NotFound";
 import Header from "./Header";
+import CrudDemo from "./CrudDemo";
 
 const DemoRouter = () => {
     return (
@@ -25,6 +26,9 @@ const DemoRouter = () => {
                         </Route>
                         <Route path="/about">
                             <About />
+                        </Route>
+                        <Route path="/crud">
+                            <CrudDemo />
                         </Route>
                         <Route path="*">
                             <NotFound />
